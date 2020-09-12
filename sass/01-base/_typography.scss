@@ -1,0 +1,40 @@
+// For Typography rules
+h1 {
+				font-family: 'Open Sans', sans-serif;
+				font-weight: 700; 
+				font-size: 2rem;
+				color: $nord0;
+				text-transform: uppercase;
+}
+
+h2 {
+				font-family: 'Open Sans', sans-serif;
+				font-weight: 800;
+				font-size: 6rem;
+				color: $nord3;
+				text-transform: capitalize;
+				line-height: 1.2;
+				padding-bottom: 1.5rem;
+}
+
+h3 {
+				font-family: 'Open Sans', sans-serif;
+				font-weight: 600;
+				font-size: 4rem;
+				color: $nord0;
+				text-transform: capitalize;
+				margin-bottom: 1rem;
+}
+
+h4 {
+				font-family: 'Open Sans', sans-serif;
+				font-weight: 600;
+				font-size: 3rem;
+				color: $nord0;
+}
+
+p {
+				font-family: 'Raleway', sans-serif;
+				font-size: 2rem;
+				line-height:: 1.4;
+}

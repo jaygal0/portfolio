@@ -1,0 +1,26 @@
+.footer {
+				@include grid;
+				grid-row: 3 / -1;
+
+				&__text {
+								grid-column: 2 / span 2;
+								margin: 5rem 0;
+
+								@include media(tabLand) {
+												margin: 8rem 0;
+								}
+								@include media(phonePort) {
+												grid-column: 2 / span 5;
+								}
+				}
+}
+
+.footerPort {
+				@include grid;
+				grid-row: 3 / -1;
+
+				&__text {
+								grid-column: 2 / span 2;
+								margin: 5rem 0;
+				}
+}
