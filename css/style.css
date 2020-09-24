@@ -671,7 +671,7 @@ p {
     align-items: center;
     justify-content: center;
     transition: 0.8s cubic-bezier(0.16, 1, 0.3, 1);
-    cursor: url("/img/thinking.png"), auto; }
+    cursor: url("/img/prettyGood.png"), auto; }
     .skills__box--4:hover {
       border: solid 7px #8fbcbb;
       scale: 1.2; }
@@ -690,7 +690,7 @@ p {
     align-items: center;
     justify-content: center;
     transition: 0.8s cubic-bezier(0.16, 1, 0.3, 1);
-    cursor: url("/img/thinking.png"), auto; }
+    cursor: url("/img/prettyGood.png"), auto; }
     .skills__box--5:hover {
       border: solid 7px #8fbcbb;
       scale: 1.2; }
@@ -709,7 +709,7 @@ p {
     align-items: center;
     justify-content: center;
     transition: 0.8s cubic-bezier(0.16, 1, 0.3, 1);
-    cursor: url("/img/thinking.png"), auto; }
+    cursor: url("/img/prettyGood.png"), auto; }
     .skills__box--6:hover {
       border: solid 7px #8fbcbb;
       scale: 1.2; }
@@ -785,7 +785,7 @@ p {
     align-items: center;
     justify-content: center;
     transition: 0.8s cubic-bezier(0.16, 1, 0.3, 1);
-    cursor: url("/img/thinking.png"), auto; }
+    cursor: url("/img/prettyGood.png"), auto; }
     .skills__box--10:hover {
       border: solid 7px #8fbcbb;
       scale: 1.2; }
@@ -1113,4 +1113,10 @@ p {
     font-size: 9rem;
     margin-right: 3rem; }
   .contact__email {
-    font-size: 3rem; }
+    font-size: 3rem;
+    text-decoration: none;
+    color: black; }
+    .contact__email:hover {
+      cursor: pointer; }
+    .contact__email--link {
+      text-decoration: none; }
